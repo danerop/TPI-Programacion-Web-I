@@ -1,0 +1,33 @@
+.contacto h2{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.contacto_lateral{
+    display:flex;
+}
+
+.contacto_lateral_derecho{
+    width:50%;
+    padding:1%;
+}
+
+.contacto_lateral_derecho form{
+    display:flex;
+    flex-direction: column;
+}
+
+#contacto_lateral_derecho_form_input-mensaje{
+    height:50px;
+}
+.contacto_lateral_izquierdo{
+    width:50%;
+    padding:1%;
+}
+
+.contacto_mapa{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
