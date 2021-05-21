@@ -1,0 +1,103 @@
+/* SECCION 1 */
+.seccion-uno-index {
+    width: 100%;
+    margin: auto;
+    background-image: url(../img/index/slider.jpg);
+    height: 620px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion-uno-index img {
+    width: 70.41px;
+    padding: 258.5px 100px 258.5px 100px;
+}
+/* SECCION 2 */
+.seccion-dos-index {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion-dos-index article {
+    width: 270px;
+    font-size: 25px;
+}
+/* SECCION 3 */
+.seccion-tres-index {
+    margin-bottom: 50px;
+}
+
+.cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cursos img {
+    width: 246px;
+    height: 138.88px;
+}
+
+.cursos article {
+    border: 1.5px solid rgb(170, 170, 170);
+    margin-bottom: 40px;
+    padding: 10.5px;
+    padding-bottom: 40px;
+}
+
+.precio {
+    display: inline;
+    background: black;
+    padding: 4px;
+    color: white;
+    padding-left: 7px;
+}
+
+.align-precio {
+    text-align: end;
+    position: relative;
+    bottom: 40px;
+}
+
+.descripcion {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    bottom: 8px;
+}
+
+.hora {
+    font-size: 20px;
+    position: relative;
+}
+
+.titulo-curso {
+    font-size: 15px;
+}
+
+.cursos a {
+    background: gray;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    left: 150px;
+    top: 12px;
+}
+/* SECCION 4 */
+.seccion-cuatro-index {
+    margin-bottom: 50px;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tarjetas img {
+    width: 210px;
+}
