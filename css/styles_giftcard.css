@@ -1,0 +1,82 @@
+main{
+    margin-top:2em;
+    display:flex;
+}
+
+/*lateral izquierdo*/
+.lateral_izquierdo{
+    width:50%;
+}
+.lateral_izquierdo div{
+    width:90%;
+    height:240px;
+    background:grey;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*lateral derecho*/
+
+/* COLOR */
+.eleccion-color{
+    display:flex;
+}
+.eleccion-color>div{
+    margin-left:1em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.eleccion-color input{
+    margin-top:0.5em;
+}
+
+.color1{
+    width:23px;
+    height:23px;
+    border-radius:50%;
+    background-color:blue;
+}
+.color2{
+    width:23px;
+    height:23px;
+    border-radius:50%;
+    background-color:blue; 
+}
+.color3{
+    width:23px;
+    height:23px;
+    border-radius:50%;
+    background-color:blue; 
+}
+.color4{
+    width:23px;
+    height:23px;
+    border-radius:50%;
+    background-color:blue; 
+}
+.color5{
+    width:23px;
+    height:23px;
+    border-radius:50%;
+    background-color:blue; 
+}
+
+/*TAMAÑO FUENTE*/
+.eleccion-tamaño-fuente{
+    display:flex;
+}
+.eleccion-tamaño-fuente>div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:1em;
+}
+.eleccion-tamaño-fuente input{
+    margin-top: 0.5em;
+}
+
+/*MONTO*/
+.monto{
+    display:flex;
+}

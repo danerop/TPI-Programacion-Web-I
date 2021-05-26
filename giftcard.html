@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cursos Online</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles_giftcard.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <div class="contenedor1">
+            <h1>
+                Cursos on-line
+            </h1>
+            <form class="formulario" action="#" method="GET">
+                <input type="text" name="postal" list="informacion" placeholder="Buscar cursos">
+                <datalist id="informacion">
+                    <option value="Curso de POO con Java"></option>
+                    <option value="Curso de HTML"></option>
+                    <option value="Curso de CSS"></option>
+                    <option value="Curso de Inglés Básico"></option>
+                    <option value="Curso de Inglés Intermedio"></option>
+                    <option value="Curso de PHP"></option>
+                    <option value="Curso con Javier da Costa"></option>
+                </datalist>
+            </form>
+            <div class="shop">
+                <a class="numero" href="#">4</a>
+                <a href="#">
+                    <img src="img/shopping-cart.png" alt="carrito" width="50">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">INICIO</a>
+            </li>
+            <li>
+                <a href="calendario.html">CALENDARIO</a>
+            </li>
+            <li>
+                <a class="nav-aqui" href="giftcard.html">GIFT CARD</a>
+            </li>
+            <li>
+                <a href="contacto.html">CONTACTO</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <main>
+        <!-- Lateral Izquierdo-->
+        <section class="lateral_izquierdo">
+            <div>
+                <p class="precio">$14,99 USD</p>
+                GIFT CARD para <strong>Destinatario</strong>
+            </div>
+            <p>VISTA PREVIA DE RESULTADO DE PERSONALIZACIÓN</p>
+        </section>
+        
+        <!-- Lateral Derecho-->
+        <section class="lateral_derecho">
+            <h3>Personalización de Giftcard</h3>
+            
+            <form action="#" method="get">
+                <input type="text" name="nombre" placeholder="Nombre Destinatario">
+            
+                <p>Color</p>
+                <div class="eleccion-color">
+                    <div>
+                        <div class="color1"></div>
+                        <input type="radio" name="color" value="1">
+                    </div>
+                    <div>
+                        <div class="color2"></div>
+                        <input type="radio" name="color" value="2">
+                    </div>
+                    <div>
+                        <div class="color3"></div>
+                        <input type="radio" name="color" value="3">
+                    </div>
+                    <div>
+                        <div class="color4"></div>
+                        <input type="radio" name="color" value="4">
+                    </div>
+                    <div>
+                        <div class="color5"></div>
+                        <input type="radio" name="color" value="5">
+                    </div>
+                </div>
+            
+                <p>Tamaño de la fuente</p>
+                <div class="eleccion-tamaño-fuente">
+                    <div>
+                        20px
+                        <input type="radio" name="tfuente" value="20px">
+                    </div>
+                    <div>
+                        28px
+                        <input type="radio" name="tfuente" value="28px">
+                    </div>
+                    <div>
+                        32px
+                        <input type="radio" name="tfuente" value="32px">
+                    </div>
+                    <div>
+                        48px
+                        <input type="radio" name="tfuente" value="48px">
+                    </div>
+                    <div>
+                        60px
+                        <input type="radio" name="tfuente" value="60px">
+                    </div>
+                </div>
+
+                <div class="monto">
+                    <p>Monto $</p>
+                    <input type="text" name="monto">
+                </div>
+
+                <p>Ubicación</p>
+                <div class="eleccion-ubicacion">
+                    <div>
+                        <img src="img/giftcard/inferior-izquierda.png" alt="">
+                        <input type="radio" name="ubicacion" value="inferior-izquierda">
+                    </div>
+                    <div>
+                        <img src="img/giftcard/superior-izquierda.png" alt="">
+                        <input type="radio" name="ubicacion" value="superior-izquierda">
+                    </div>
+                    <div>
+                        <img src="img/giftcard/superior-derecha.png" alt="">
+                        <input type="radio" name="ubicacion" value="superior-derecha">
+                    </div>
+                    <div>
+                        <img src="img/giftcard/inferior-derecha.png" alt="">
+                        <input type="radio" name="ubicacion" value="inferior-derecha">
+                    </div>
+                </div>
+
+                <p>Fondo</p>
+                <div class="eleccion-fondo">
+                    <div>
+                        <img src="" alt="">
+                        <input type="radio" name="fondo" value="1">
+                    </div>
+                    <div>
+                        <img src="" alt="">
+                        <input type="radio" name="fondo" value="1">
+                    </div>
+                    <div>
+                        <img src="" alt="">
+                        <input type="radio" name="fondo" value="1">
+                    </div>
+                    <div>
+                        <img src="" alt="">
+                        <input type="radio" name="fondo" value="1">
+                    </div>
+                    <div>
+                        <img src="" alt="">
+                        <input type="radio" name="fondo" value="1">
+                    </div>
+                </div>
+
+                <input type="submit" value="CONFIRMAR">
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor-inferior">
+            <div class="datos">
+                <p class="sub">
+                    Datos del grupo
+                </p>
+                <p class="alumno">
+                    Martín Martulli
+                </p>
+                <p class="alumno">
+                    Hector Mercado - 41162232
+                </p>
+                <p class="alumno">
+                    Martín Quiroz - 42284532
+                </p>
+            </div>
+            <div class="menu-inferior">
+                <p class="sub">
+                    Menu Inferior
+                </p>
+                <ul>
+                    <li>
+                        <a href="index.html">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="calendario.html">CALENDARIO</a>
+                    </li>
+                    <li>
+                        <a href="giftcard.html">GIFT CARD</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="redes">
+                <p class="sub">
+                    Redes Sociales
+                </p>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="img/facebook.png" alt="facebook" width="50px">
+                </a>
+                <a href="https://twitter.com/?lang=es" target="_blank">
+                    <img src="img/twitter.png" alt="twitter" width="50px">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="img/instagram.png" alt="instagram" width="50px">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
