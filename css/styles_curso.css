@@ -1,0 +1,197 @@
+/*lateral izquierdo*/
+.imagen_curso{
+    width: 360px;
+    margin-bottom:1em;
+}
+
+.contenido_curso{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.contenido_lateral_izquierdo{
+    margin-right: 40px
+}
+
+.contenido_lateral_izquierdo ul{
+    margin-bottom:50px;
+}
+
+.contenido_lateral_izquierdo li{
+    list-style:circle;
+    margin-left:1em;
+}
+
+.boton_inscripcion{
+    background-color: rgb(184 194 228);
+    padding: 0.5em;
+    border: 1px solid rgb(150 150 189);
+}
+
+/*lateral derecho*/
+.datos_curso{
+    margin-bottom:2em;
+}
+
+.datos_curso h3{
+    margin-bottom:1em;
+}
+
+.datos_curso>p{
+    margin-bottom:0.3em;
+}
+
+.datos_curso .precio_curso{
+    color: rgb(98, 163, 98);
+}
+
+.datos_curso .tiempo_curso{
+    color:rgb(127, 138, 173);
+}
+
+/*contenidos*/
+.contenidos_del_curso{
+    width:498px;
+    border-top:1px solid grey;
+    border-right:1px solid grey;
+    border-left:1px solid grey;
+    font-family:sans-serif;
+}
+
+.primer_renglon{
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    padding: 0.5em;
+    border-bottom: 1px solid grey;
+}
+
+.renglon_contenido{
+    display: flex;
+    background-color: rgb(220, 220, 220);
+    padding: 0.5em;
+    padding-left: 1.5em;
+    border-bottom: 1px solid grey;
+}
+
+.renglon_contenido div{
+    display:flex;
+}
+
+.renglon_contenido>p{
+    width:340px;
+}
+
+.iconos_curso{
+    width:16px;
+    margin-right:5px;
+}
+
+/* --DOCENTE-- */
+.docente_curso{
+    background-color: rgb(245, 207, 202);
+    padding:1em;
+    margin-top:1em;
+    margin-bottom:3em;
+}
+
+.docente_curso>div{
+    width:900px;
+    display:flex;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.docente_curso img{
+    width:250px;
+}
+
+.datos{
+    margin-left:25px;
+}
+
+/*puntuacion estrellas*/
+.puntuacion_estrellas{
+    display:flex;
+    font-size: 25px;
+    text-shadow: 0px 0px 3px rgb(136, 85, 109);
+    color:rgb(255, 255, 255);
+}
+
+.estrella_puntuada{
+    color:rgb(255, 230, 0);
+}
+
+/*css para cursos relacionados*/
+.div-cursos{
+    width:900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.div-cursos h3{
+    text-align: center;
+    margin-bottom:1em;
+}
+
+.cursos_relacionados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.cursos_relacionados img {
+    width: 246px;
+    height: 138.88px;
+}
+
+.cursos_relacionados article {
+    border: 1.5px solid rgb(170, 170, 170);
+    margin-bottom: 40px;
+    padding: 10.5px;
+    padding-bottom: 40px;
+}
+
+.precio {
+    display: inline;
+    background: black;
+    padding: 4px;
+    color: white;
+    padding-left: 7px;
+}
+
+.align-precio {
+    text-align: end;
+    position: relative;
+    bottom: 40px;
+}
+
+.descripcion {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    bottom: 8px;
+}
+
+.hora {
+    font-size: 20px;
+    position: relative;
+}
+
+.titulo-curso {
+    font-size: 15px;
+}
+
+.cursos_relacionados a {
+    background: gray;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    left: 150px;
+    top: 12px;
+}
