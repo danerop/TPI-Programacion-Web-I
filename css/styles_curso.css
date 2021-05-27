@@ -12,7 +12,8 @@
 }
 
 .contenido_lateral_izquierdo{
-    margin-right: 40px
+    margin-right: 40px;
+    font-size: 12px;
 }
 
 .contenido_lateral_izquierdo ul{
@@ -25,14 +26,18 @@
 }
 
 .boton_inscripcion{
-    background-color: rgb(184 194 228);
+    background-color: rgb(98 163 98);
+    border-radius: 10%;
     padding: 0.5em;
-    border: 1px solid rgb(150 150 189);
+    border: 1px solid rgb(174 204 174);
+    color: beige;
+    font-size: 20px;
 }
 
 /*lateral derecho*/
 .datos_curso{
     margin-bottom:2em;
+    font-size: 18px;
 }
 
 .datos_curso h3{

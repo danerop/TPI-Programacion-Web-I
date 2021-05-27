@@ -58,19 +58,29 @@
         <h2>CONTACTO</h2>
         <div class="contacto_lateral">
             <div class="contacto_lateral_derecho">
-               <h4>Enviar un mensaje:</h4>
+                <h4>Enviar un mensaje:</h4>
+                
                 <form action="#" method="post" >
-                    <input type="text" name="nombre" placeholder="Nombre" required>
-                    <input type="email" name="email" placeholder="Ingrese su email" required>
-                    <input type="text" name="asunto" placeholder="Titulo o asunto" required>
-                    <input id="contacto_lateral_derecho_form_input-mensaje" type="text" name="mensaje" placeholder="Ingrese su mensaje" required>
-                    <input type="submit" name="submit">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre">
+                     
+                    <label for="email">Email*</label>
+                    <input type="email" name="email" required>
+                        
+                    <label for="asunto">Asunto*</label>                         
+                    <input type="text" name="asunto" required>
+                        
+                    <label for="mensaje">Mensaje*</label>
+                    <textarea name="mensaje" rows="5" required></textarea>
+                    <div>* : campo requerido</div>
+                    <input id="boton" type="submit" name="submit">
                 </form>
+
             </div>
 
             <div class="contacto_lateral_izquierdo">
                 <h4>Medios de contacto</h4>
-                <p>Calle Falsa 123, CABA <br>Puedes comunicarte con nosotros al:<br>011 1512345678</p>
+                <p>Cap. Gral. Ramón Freire 967, CABA <br>Puedes comunicarte con nosotros al:<br>011 1512345678</p>
                 <h4>Redes Sociales</h4>
                 <div class="redes_sociales">
                     <a href="https://www.facebook.com/" target="_blank">

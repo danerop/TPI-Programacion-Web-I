@@ -13,14 +13,35 @@
     padding:1%;
 }
 
-.contacto_lateral_derecho form{
-    display:flex;
-    flex-direction: column;
+.contacto_lateral_derecho h4{
+    margin-bottom:1em;
 }
 
-#contacto_lateral_derecho_form_input-mensaje{
-    height:50px;
+form{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+
+form label{
+    width:70px;
+}
+
+form input, textarea{
+    width: 350px;
+    margin-bottom:1em;
+}
+
+form>div{
+    font-size:12px;
+    font-weight: bold;
+}
+
+#boton{
+    width:25%;
+    margin-left:auto;
+}
+
 .contacto_lateral_izquierdo{
     width:50%;
     padding:1%;
