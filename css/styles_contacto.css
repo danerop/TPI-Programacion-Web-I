@@ -17,22 +17,22 @@
     margin-bottom:1em;
 }
 
-form{
+.formulario-contacto{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-form label{
+.formulario-contacto label{
     width:70px;
 }
 
-form input, textarea{
+.formulario-contacto input, textarea{
     width: 350px;
     margin-bottom:1em;
 }
 
-form>div{
+.formulario-contacto>div{
     font-size:12px;
     font-weight: bold;
 }

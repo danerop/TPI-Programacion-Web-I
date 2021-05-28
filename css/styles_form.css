@@ -1,0 +1,71 @@
+.curso img {
+	padding-left : 4px;
+	margin-bottom: 20px;
+	width: 55px;
+    height: 50px;
+}
+
+.formulario1 {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: bold;
+    padding-bottom: 25px;
+	
+}
+
+input[type="text"] {
+    font-weight: bold;
+}
+
+input[type="numero"] {
+	font-weight: bold;
+	
+}
+
+.formulario1 img {
+	width: 35px;
+    height: 35px;
+	
+}
+
+.signo-mas img {
+	display: flex;
+	width: 45px;
+    height: 45px;
+	
+}
+
+.align-texto {
+    position: relative;
+    bottom: 30px;
+	padding-left: 60px;
+}
+
+.align-precio {
+    display: flex;
+    background: black;
+    padding: 4px;
+    color: white;
+    padding-left: 7px;
+	bottom: 40px;
+	width: 50px;
+}
+
+.boton-inscripcion a {
+	position: relative;
+	border-radius: 5px;
+    color: white;
+	width: 100px;
+	background: gray;
+	padding: 10px;
+	margin: -9px;
+    left: 95px;
+    top: -23px;
+	
+    
+}
+	
+
+
+
