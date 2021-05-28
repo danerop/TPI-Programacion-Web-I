@@ -56,11 +56,17 @@
     <main>
         <!-- Lateral Izquierdo-->
         <section class="lateral_izquierdo">
-            <div>
-                <p class="precio">$14,99 USD</p>
-                GIFT CARD para <strong>Destinatario</strong>
+            <article>
+                <div class="div-uno">
+                    <p class="precio">$14,99 USD</p>
+                </div>
+                <div class="div-dos">
+                    GIFT CARD para <strong>Destinatario</strong>
+                </div>
+            </article>
+            <div class="div-tres">
+                <p>VISTA PREVIA DE RESULTADO <br>DE PERSONALIZACIÓN</p>
             </div>
-            <p>VISTA PREVIA DE RESULTADO DE PERSONALIZACIÓN</p>
         </section>
         
         <!-- Lateral Derecho-->
@@ -68,51 +74,50 @@
             <h3>Personalización de Giftcard</h3>
             
             <form action="#" method="get">
-                <input type="text" name="nombre" placeholder="Nombre Destinatario">
-            
-                <p>Color</p>
+                <input class="nombre" type="text" name="nombre" placeholder="Nombre Destinatario">
+                <p class="sub-palabra">Color</p>
                 <div class="eleccion-color">
-                    <div>
-                        <div class="color1"></div>
-                        <input type="radio" name="color" value="1">
+                    <div class="primer-div">
+                        <div class="color uno"></div>
+                        <input type="radio" name="color" value="1" checked>
                     </div>
                     <div>
-                        <div class="color2"></div>
+                        <div class="color dos"></div>
                         <input type="radio" name="color" value="2">
                     </div>
                     <div>
-                        <div class="color3"></div>
+                        <div class="color tres"></div>
                         <input type="radio" name="color" value="3">
                     </div>
                     <div>
-                        <div class="color4"></div>
+                        <div class="color cuatro"></div>
                         <input type="radio" name="color" value="4">
                     </div>
                     <div>
-                        <div class="color5"></div>
+                        <div class="color cinco"></div>
                         <input type="radio" name="color" value="5">
                     </div>
                 </div>
             
-                <p>Tamaño de la fuente</p>
+                <p class="sub-palabra">Tamaño de la fuente</p>
                 <div class="eleccion-tamaño-fuente">
-                    <div>
+                    <div class="primer-div">
                         20px
                         <input type="radio" name="tfuente" value="20px">
                     </div>
-                    <div>
+                    <div class="segundo-div">
                         28px
-                        <input type="radio" name="tfuente" value="28px">
+                        <input type="radio" name="tfuente" value="28px" checked>
                     </div>
-                    <div>
+                    <div class="tercero-div">
                         32px
                         <input type="radio" name="tfuente" value="32px">
                     </div>
-                    <div>
+                    <div class="cuarto-div">
                         48px
                         <input type="radio" name="tfuente" value="48px">
                     </div>
-                    <div>
+                    <div class="quinto-div">
                         60px
                         <input type="radio" name="tfuente" value="60px">
                     </div>
@@ -123,9 +128,9 @@
                     <input type="text" name="monto">
                 </div>
 
-                <p>Ubicación</p>
+                <p class="sub-palabra">Ubicación</p>
                 <div class="eleccion-ubicacion">
-                    <div>
+                    <div class="primer-div">
                         <img src="img/giftcard/inferior-izquierda.png" alt="">
                         <input type="radio" name="ubicacion" value="inferior-izquierda">
                     </div>
@@ -135,7 +140,7 @@
                     </div>
                     <div>
                         <img src="img/giftcard/superior-derecha.png" alt="">
-                        <input type="radio" name="ubicacion" value="superior-derecha">
+                        <input type="radio" name="ubicacion" value="superior-derecha" checked>
                     </div>
                     <div>
                         <img src="img/giftcard/inferior-derecha.png" alt="">
@@ -143,31 +148,30 @@
                     </div>
                 </div>
 
-                <p>Fondo</p>
+                <p class="sub-palabra">Fondo</p>
                 <div class="eleccion-fondo">
-                    <div>
-                        <img src="" alt="">
+                    <div class="primer-div">
+                        <img src="img/giftcard/fondo01.jpg" alt="">
                         <input type="radio" name="fondo" value="1">
                     </div>
                     <div>
-                        <img src="" alt="">
-                        <input type="radio" name="fondo" value="1">
+                        <img src="img/giftcard/fondo02.jpg" alt="">
+                        <input type="radio" name="fondo" value="2" checked>
                     </div>
                     <div>
-                        <img src="" alt="">
-                        <input type="radio" name="fondo" value="1">
+                        <img src="img/giftcard/fondo03.jpg" alt="">
+                        <input type="radio" name="fondo" value="3">
                     </div>
                     <div>
-                        <img src="" alt="">
-                        <input type="radio" name="fondo" value="1">
+                        <img src="img/giftcard/fondo04.jpg" alt="">
+                        <input type="radio" name="fondo" value="4">
                     </div>
                     <div>
-                        <img src="" alt="">
-                        <input type="radio" name="fondo" value="1">
+                        <img src="img/giftcard/fondo05.jpg" alt="">
+                        <input type="radio" name="fondo" value="5">
                     </div>
                 </div>
-
-                <input type="submit" value="CONFIRMAR">
+                <input class="boton-confirmar" type="submit" value="CONFIRMAR">
             </form>
 
         </section>
