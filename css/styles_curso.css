@@ -72,6 +72,10 @@
     border-bottom: 1px solid grey;
 }
 
+.renglones_ocultos{
+    display: none;
+}
+
 .renglon_contenido{
     display: flex;
     background-color: rgb(220, 220, 220);
