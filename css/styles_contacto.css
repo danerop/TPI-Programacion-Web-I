@@ -1,15 +1,23 @@
+main{
+    width:100%;
+}
+
 .contacto h2{
     text-align: center;
     margin-top: 3%;
     margin-bottom: 2%;
+    color:rgb(142, 87, 87);
 }
 
 .contacto_lateral{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
     display:flex;
 }
 
 .contacto_lateral_derecho{
-    width:50%;
+    width:70%;
     padding:1%;
 }
 
@@ -50,10 +58,6 @@
     color:silver;
 }
 
-#contador_de_caracteres>{
-
-}
-
 #boton{
     width:25%;
     margin-left:auto;
@@ -65,8 +69,18 @@
 }
 
 .contacto_lateral_izquierdo{
-    width:50%;
+    width:30%;
     padding:1%;
+    background-color: rgb(253, 235, 224);
+    border-radius: 3%;
+}
+
+.contacto_lateral_izquierdo>p{
+    font-size: 14px;
+    margin-bottom: 2em;
+}
+.contacto_lateral_izquierdo>h4{
+    margin-bottom: 0.5em;
 }
 
 .contacto_mapa{

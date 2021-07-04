@@ -33,8 +33,8 @@ function validar(){
         error++;
     }
 
-    //verifica si hay un minimo de 50 caracteres en el mensaje
-    if( $("#mensaje").val().length < 50 ){
+    //verifica si hay un minimo de 50 y un maximo de 1000 caracteres en el mensaje
+    if( $("#mensaje").val().length < 50 || $("#mensaje").val().length > 1000){
         mensaje_error+="<p>Ingrese un mensaje con minimo de 50 caracteres y maximo 1000</p>";
         error++;
     }
