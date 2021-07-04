@@ -61,21 +61,30 @@
                 <h4>Enviar un mensaje:</h4>
                 
                 <form class="formulario-contacto" action="#" method="post" >
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre">
+                    <label for="nombre">Nombre*</label>
+                    <input type="text" id="nombre" name="nombre">
+
+                    <label for="apellido">Apellido*</label>
+                    <input type="text" id="apellido" name="apellido">
                      
+                    <label for="telefono">Telefono</label>
+                    <input type="text" id="telefono" name="telefono" placeholder="****-****">
+
                     <label for="email">Email*</label>
-                    <input type="email" name="email" required>
+                    <input type="text" id="email" name="email">
                         
                     <label for="asunto">Asunto*</label>                         
-                    <input type="text" name="asunto" required>
+                    <input type="text" id="asunto" name="asunto">
                         
                     <label for="mensaje">Mensaje*</label>
-                    <textarea name="mensaje" rows="5" required></textarea>
-                    
+                    <textarea name="mensaje" id="mensaje" rows="5"></textarea>
+                    <div id="contador_de_caracteres">0 / 1000</div>
+
                     <div>* : campo requerido</div>
                     <input id="boton" type="submit" name="submit">
                 </form>
+
+                <div id="mensaje_error"></div>
 
             </div>
 
@@ -96,6 +105,7 @@
                 </div>
             </div>
         </div>
+
         <h2>UBICACIÓN</h2>
         <div class="contacto_mapa">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d821.2830880245738!2d-58.45248667076701!3d-34.57551749877915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5dd296276f3%3A0x4c884ac07212c197!2sCap.%20Gral.%20Ram%C3%B3n%20Freire%20967%2C%20C1426AVS%20CABA!5e0!3m2!1ses!2sar!4v1620745496828!5m2!1ses!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -154,6 +164,7 @@
         </div>
     </footer>
 
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/scripts_contacto.js"></script>
 </body>
 

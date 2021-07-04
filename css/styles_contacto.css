@@ -24,11 +24,11 @@
 }
 
 .formulario-contacto label{
-    width:70px;
+    width:20%;
 }
 
 .formulario-contacto input, textarea{
-    width: 350px;
+    width: 79%;
     margin-bottom:1em;
 }
 
@@ -37,9 +37,31 @@
     font-weight: bold;
 }
 
+#mensaje{
+    margin-bottom: 0px;
+}
+
+#contador_de_caracteres{
+    margin-left: 20%;
+    margin-bottom: 1em;
+    width: 79%;
+    font-size: 12px;
+    font-weight: normal;
+    color:silver;
+}
+
+#contador_de_caracteres>{
+
+}
+
 #boton{
     width:25%;
     margin-left:auto;
+}
+
+#mensaje_error{
+    color: red;
+    font-size: 12px;
 }
 
 .contacto_lateral_izquierdo{
