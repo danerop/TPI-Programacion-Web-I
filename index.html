@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/styles_index.css">
     <link rel="shortcut icon" href="img/favicon.ico">
-    <!-- Commit de prueba.. -->
+    <!-- Links del codigo css del "carrusel" -->
+    <link rel="stylesheet" href="css/nivo-slider.css">
+    <link rel="stylesheet" href="css/default.css">
 </head>
 
 <body>
@@ -58,12 +60,13 @@
 
     <!-- SECCION 1 -->
     <section class="seccion-uno-index">
-        <a href="#">
-            <img src="img/index/flecha-izq.png" alt="">
-        </a>
-        <a href="#">
-            <img src="img/index/flecha-der.png" alt="">
-        </a>
+        <article class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="img/index/slider1.jpg" alt="slider 1" title="Contamos con una amplia oferta de cursos en linea"/>
+                <img src="img/index/slider2.jpg" alt="slider 2" title="Cursos con variedad de horario y a buen precio"/>
+                <img src="img/index/slider3.jpg" alt="slider 3" title="Toma clases en linea con los profesores mejor calificados"/>
+            </div>
+        </article>
     </section>
 
 
@@ -264,6 +267,9 @@
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/scripts_localStorage.js"></script>
+    <!-- Scripts del "carrusel" -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.nivo.slider.js"></script>
 </body>
 
 </html>
