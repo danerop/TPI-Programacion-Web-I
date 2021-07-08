@@ -4,8 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Cursos Online</title>
+    
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles_calendario.css">
+    <link rel='stylesheet' href="css/cal/fullcalendar.min.css"/>
+    <link rel='stylesheet' href="css/cal/fullcalendar.print.min.css" media='print'/>	
+         
     <link rel="shortcut icon" href="img/favicon.ico">
+    
 </head>
 
 <body>
@@ -53,7 +59,7 @@
     </nav>
     
     <main>
-        <img src="img/calendario/UC1.png" width="900" alt="pagina en construccion">
+        <div id="calendar"></div>
     </main>
 
     <footer>
@@ -108,8 +114,11 @@
         </div>
     </footer>
 
-    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/cal/moment.min.js"></script>
+    <script src="js/cal/jquery-3.4.1.min.js"></script>
     <script src="js/scripts_localStorage.js"></script>
+    <script src="js/cal/fullcalendar.min.js"></script>
+    <script src="js/scripts_calendarios.js"></script>
 </body>
 
 </html>
