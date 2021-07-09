@@ -1,26 +1,49 @@
-.curso img {
-	padding-left : 4px;
-	margin-bottom: 20px;
-	width: 55px;
-    height: 50px;
+/*--------------------------------------------MODAL----------------------------------------*/
+ /* Modal  */
+ .modal {
+    display: none; /* Oculto por defecto */
+    position: fixed; /* Permanecer en su lugar */
+    z-index: 2; /* Sitúate encima */
+    padding-top: 100px; /* Ubicación de la caja */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Altura completa */
+    overflow: auto; /* Habilite el desplazamiento si es necesario */
+    background-color: rgb(0,0,0); /* Color de reserva */
+    background-color: rgba(0,0,0,0.4); /* Negro con opacidad*/
+  }
+  
+/* Contenido Modal */
+.modal-content {
+background-color: #fefefe;
+margin: auto;
+padding: 20px;
+border: 1px solid #888;
+width: 80%;
 }
 
-.formulario1 {
-	display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    font-weight: bold;
-    padding-bottom: 25px;
-	
+/* El botón cerrar */
+.close {
+color: #aaaaaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
 }
 
-input[type="text"] {
-    font-weight: bold;
+.close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
 }
 
-input[type="numero"] {
-	font-weight: bold;
-	
+/*--------------------------------------------MODAL----------------------------------------*/
+
+/*--------------------------------------------FORMULARIO----------------------------------------*/
+
+form > div{
+    margin:10px;
 }
 
 .formulario1 img {
@@ -29,43 +52,82 @@ input[type="numero"] {
 	
 }
 
-.signo-mas img {
-	display: flex;
-	width: 45px;
-    height: 45px;
-	
+.formulario1 input{
+   margin:10px;
+   width: 80%;
+   padding: 6px;
+   border-radius: 4px;
+   margin-top: 8px;
 }
 
-.align-texto {
+.formulario1 {
+    border: 2px solid #cc1d20;
+    border-radius: 5px;
+    margin:5px;
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: inherit;
+    padding:10px 10px 10px 10px;
+
+}
+
+/*----------------------FORMULARIO------------------*/
+
+/*--------------------SIGNO MAS------------------*/
+.signo-mas img {
+	width: 45px;
+    height: 45px;
+	cursor: pointer;
+}
+/*------------------SIGNO MAS-------------------*/
+
+/*------------------SIGNO MENOS---------------------*/
+.boton_redondo{
+    border-radius: 50%;
+    width: 30px;
+    background:  rgb(90 7 7);
+    cursor: pointer;
+}
+/*---------------SIGNO MENOS----------------------------*/
+
+/*--------------CARTEL SUMA PARCIAL/TOTAL------------*/
+#valor_total{
+    background: black;
+    color:white;
+    font-size: 1.4em;
+    padding: 4px;
+}
+/*------------CARTEL SUMA PARCIAL/TOTAL-----------*/
+
+
+/*-----------BOTÓN INSCRIPCIÓN------------------*/
+input[type="submit"], .botom, button
+{
+    background: rgb(255 169 130);
+    border-color:  grey;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 900; /*pone la letra en negrita*/
+    cursor:pointer;
+    outline:none;
+}
+/*-----------BOTÓN INSCRIPCIÓN------------------*/
+
+/*-----------ETIQUETA AGREGAR PERSONA------------------*/
+.Suma_persona {
     position: relative;
     bottom: 30px;
 	padding-left: 60px;
 }
+/*-----------ETIQUETA AGREGAR PERSONA------------------*/
 
-.align-precio {
-    display: flex;
-    background: black;
-    padding: 4px;
-    color: white;
-    padding-left: 7px;
-	bottom: 40px;
-	width: 50px;
+#ingresar_per > ul{
+    margin :auto;
+    padding: 10px;
 }
 
-.boton-inscripcion a {
-	position: relative;
-	border-radius: 5px;
-    color: white;
-	width: 100px;
-	background: gray;
-	padding: 10px;
-	margin: -9px;
-    left: 95px;
-    top: -23px;
-	
-    
-}
-	
-
-
-
+.close{
+    display: none;
+} 
