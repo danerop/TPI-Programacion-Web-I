@@ -53,73 +53,69 @@
     </nav>
 	
 	<main>
+	    
+		<div class= "close">
+		    <a id="#close" class= "boton rojo"  href="#close">Cerrar</a>
+        </div>
+	
+	    <div id="myModal" class="modal">
+
+            <!-- Modal -->
+            <div class="modal-content">
+                <h1>Personas Inscriptas</h1>
+            <div id ="ingresar_per">
+
+            </div>
+
+            </div>
+			
+	    </div>
+	
 	    <br> 
 	        <h2> Curso de HTML5 y CSS3 </h2>
 		<br>
 		    <h3> Inscripción </h3>
 		<br>
 		
-		<form class="formulario1" action="#" method="GET">
-		
-		    <input type="text"  value="Ingrese Nombre" size="35" maxlength="30" required /> <br/>
-		    <br/>
- 		    
-		    <input type="text" value="Ingrese Apellido" size="35" maxlength="40" required /> <br/>
-	 	    <br/>
-	 
-		    <input type="numero" value="Ingrese Dni" size="35" maxlength="10" required /> <br/> <img src="img/formulario/menos.png" alt="">
-		    <br/>
-				    
-		</form>
+		<form>
+		    <div class="formulario1" >
+                <input type="text" placeholder="Ingrese su nombre aqui">
+                <input type="text" placeholder="Ingrese su apellido aqui">
+                <input type="text" placeholder="Ingrese su DNI aqui">
+                <img src="img/formulario/menos.png" class="eliminar boton_redondo">
+            </div>
+            <div class="formulario1">
+                <input type="text" placeholder="Ingrese su nombre aqui">
+                <input type="text" placeholder="Ingrese su apellido aqui">
+                <input type="text" placeholder="Ingrese su DNI aqui">
+                <img src="img/formulario/menos.png" class="eliminar boton_redondo">
+            </div>
 			
-		<br/>
+			<div class="formulario1" >
+                <input type="text" placeholder="Ingrese su nombre aqui">
+                <input type="text" placeholder="Ingrese su apellido aqui">
+                <input type="text" placeholder="Ingrese su DNI aqui">
+                <img src="img/formulario/menos.png" class="eliminar boton_redondo">
+            </div>
 		
-		<form class="formulario1" action="#" method="GET">
-		
-		    <input type="text"  value="Ingrese Nombre" size="35" maxlength="30" required /> <br/>
-		    <br/>
- 		    
-		    <input type="text" value="Ingrese Apellido" size="35" maxlength="40" required /> <br/>
-	 	    <br/>
-	 
-		    <input type="numero" value="Ingrese Dni" size="35" maxlength="10" required /> <br/> <img src="img/formulario/menos.png" alt="">
-		    <br/>
-				    
-		</form>
-			
-		<br/>
-		
-		<form class="formulario1" action="#" method="GET">
-		
-		    <input type="text"  value="Ingrese Nombre" size="35" maxlength="30" required /> <br/>
-		    <br/>
- 		    
-		    <input type="text" value="Ingrese Apellido" size="35" maxlength="40" required /> <br/>
-	 	    <br/>
-	 
-		    <input type="numero" value="Ingrese Dni" size="35" maxlength="10" required /> <br/> <img src="img/formulario/menos.png" alt="">
-		    <br/>
-				    
 		</form>
 			
 		<br/>     				
 		
 		<article>
             <div class="signo-mas">
-                <img src="img/formulario/mas.png" alt=""> 
-            </div>
-            <div class="align-texto">
-                <p> <strong> Agregar Persona  </strong> </p>
-            </div>
-        </article>			
-		
-		<article>
-            <div class="align-precio">
-                <p> $000.- </p>
-            </div>
-			<div class="boton-inscripcion">
-			    <a href="#"> INSCRIBIRSE </a>
+                <img src="img/formulario/mas.png" id ="agregar" class="boton_redondo">
+				<span>Agregar Persona</span>
 			</div>
+        </article>		
+		
+		<br/>
+
+		<article>
+            <div>
+                <span id="valor_total"></span>
+                <input type="submit"  id="insc" value="INSCRIBIRSE"> 
+            </div>  
         </article>
 		
 	</main>
@@ -178,6 +174,8 @@
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/scripts_localStorage.js"></script>
+	<!-- Scripts del formulario -->
+	<script src="js/scripts_formulario.js"></script>
 </body>
 
 </html>
