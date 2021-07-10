@@ -11,29 +11,30 @@ main{
 }
 .lateral_izquierdo article {
     background: url(../img/giftcard/fondo02.jpg);
-    height: 360px;
+    background-size: cover;
+    height: 450px;
 }
 .div-uno {
-    text-align: end;
-    position: relative;
-    top: 8px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    align-items: flex-end;
 }
 .div-uno p {
-    display: inline;
     background-color:#fe4c13;
     color: white;
     padding: 8px;
 }
 .div-dos {
-    text-align: center;
-    position: relative;
-    top: 100px;
-    font-size: 17px;
+    display: flex;
+    font-size: 28px;
     color: white;
+    height: 420px;
+    flex-direction: column;
 }
-.div-dos strong {
-    display: block;
-    font-size: 45px;
+.div-dos p {
+    padding: 20px;
+    text-align: center;
 }
 .div-tres {
     margin-top: 20px;
@@ -148,6 +149,10 @@ input[type="submit"]:hover {
     margin-right: 5px;
     font-size: 18px;
 }
+#mensaje {
+    color: red;
+    font-size: 15px;
+}
 
 
 /*UBICACION*/
@@ -190,7 +195,7 @@ input[type="submit"]:hover {
 .boton-confirmar {
     margin-top: 20px;
     border: 0;
-    background: gray;
+    background: rgb(138, 12, 12);
     padding: 10px;
     color: white;
     border-radius: 5px;
