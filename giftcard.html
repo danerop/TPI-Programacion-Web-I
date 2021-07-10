@@ -58,10 +58,10 @@
         <section class="lateral_izquierdo">
             <article>
                 <div class="div-uno">
-                    <p class="precio">$14,99 USD</p>
+                    <p class="precio">$<span id="val-precio">0,00</span> USD</p>
                 </div>
                 <div class="div-dos">
-                    GIFT CARD para <strong>Destinatario</strong>
+                    <p>GIFT CARD para <br><strong id="destinatario">Destinatario</strong></p>
                 </div>
             </article>
             <div class="div-tres">
@@ -73,29 +73,30 @@
         <section class="lateral_derecho">
             <h3>Personalización de Giftcard</h3>
             
-            <form action="#" method="get">
-                <input class="nombre" type="text" name="nombre" placeholder="Nombre Destinatario">
+            <form action="#" name="form" method="get" onsubmit="return validar()">
+                <input class="nombre" type="text" name="nombre" id="nombre" placeholder="Nombre Destinatario" onkeyup="mostrarNombre()">
+
                 <p class="sub-palabra">Color</p>
                 <div class="eleccion-color">
                     <div class="primer-div">
                         <div class="color uno"></div>
-                        <input type="radio" name="color" value="1" checked>
+                        <input type="radio" name="color" value="white" onclick="cambiarColor()" checked>
                     </div>
                     <div>
                         <div class="color dos"></div>
-                        <input type="radio" name="color" value="2">
+                        <input type="radio" name="color" value="black" onclick="cambiarColor()">
                     </div>
                     <div>
                         <div class="color tres"></div>
-                        <input type="radio" name="color" value="3">
+                        <input type="radio" name="color" value="grey">
                     </div>
                     <div>
                         <div class="color cuatro"></div>
-                        <input type="radio" name="color" value="4">
+                        <input type="radio" name="color" value="blue">
                     </div>
                     <div>
                         <div class="color cinco"></div>
-                        <input type="radio" name="color" value="5">
+                        <input type="radio" name="color" value="red">
                     </div>
                 </div>
             
@@ -125,26 +126,29 @@
 
                 <div class="monto">
                     <p>Monto $</p>
-                    <input type="text" name="monto">
+                    <input type="text" name="monto" id="monto" onkeyup="mostrarMonto()">
+                </div>
+                <div id="mensaje">
+
                 </div>
 
                 <p class="sub-palabra">Ubicación</p>
                 <div class="eleccion-ubicacion">
                     <div class="primer-div">
                         <img src="img/giftcard/inferior-izquierda.png" alt="">
-                        <input type="radio" name="ubicacion" value="inferior-izquierda">
+                        <input type="radio" name="ubicacion" value="1">
                     </div>
                     <div>
                         <img src="img/giftcard/superior-izquierda.png" alt="">
-                        <input type="radio" name="ubicacion" value="superior-izquierda">
+                        <input type="radio" name="ubicacion" value="2">
                     </div>
                     <div>
                         <img src="img/giftcard/superior-derecha.png" alt="">
-                        <input type="radio" name="ubicacion" value="superior-derecha" checked>
+                        <input type="radio" name="ubicacion" value="3">
                     </div>
                     <div>
                         <img src="img/giftcard/inferior-derecha.png" alt="">
-                        <input type="radio" name="ubicacion" value="inferior-derecha">
+                        <input type="radio" name="ubicacion" value="4">
                     </div>
                 </div>
 
@@ -173,7 +177,6 @@
                 </div>
                 <input class="boton-confirmar" type="submit" value="CONFIRMAR">
             </form>
-
         </section>
     </main>
 
@@ -231,6 +234,7 @@
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/scripts_localStorage.js"></script>
+    <script src="js/scripts_giftcard.js"></script>
 </body>
 
 </html>
