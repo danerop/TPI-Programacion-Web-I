@@ -70,18 +70,26 @@ $(document).ready(function(){
 
         $("#ingresar_per").html(contenido);
         modal.style.display = "block";
-        return false;
-    }
+        
+        //bloquea scroll en la pagina
+        $("html, body").css({
+            "overflow": "hidden",
+            "height": "100%"
+        });
 
-    // Cuando el usuario haga clic en <span> (x), cierra el modal
-    span.onclick = function() {
-        modal.style.display = "none";
+        return false;
     }
 
     // Cuando el usuario haga clic en cualquier lugar fuera del modal, este se cierra
     window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";
+            
+            //desbloquea scroll en la pagina
+            $("html, body").css({
+                'overflow': 'visible',
+                'height': 'auto'
+            });
         }
     }
 });
