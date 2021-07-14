@@ -87,3 +87,93 @@
 .tarjetas img {
     width: 210px;
 }
+
+/*------------------------------------------RESPONSIVE----------------------------------*/
+@media (max-width: 768px)
+{
+	main {
+        width: 95%;
+        margin: auto;
+    }
+	
+	header {
+        width: 95%;
+    }
+	
+	.contenedor1 {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+	
+	.contenedor1 input{
+        width: 110%;
+	}
+        
+	nav {
+		width:98%;
+		margin:auto;
+    }
+	
+	.theme-default .nivoSlider {
+		width:98%;
+	}
+
+	.seccion-dos-index {
+		width:98%;
+		margin: auto;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+		align-items: center;
+
+    }
+	
+	.seccion-dos-index article {
+        width: 28%;
+        font-size: 125%;
+        display: flex;
+		position: relative;
+    }
+	
+	.subtitulo{
+		text-align: center;
+	}
+	
+	.cursos {
+		width: 90%;
+		margin-left:28px;
+		margin-top:3%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+		
+    }
+	
+	.seccion-cuatro-index {
+		width:90%;
+        margin-bottom: 50px;
+		margin-left: 25px;
+    }
+	
+	.tarjetas {
+		width:90%;
+		margin-left: 40px;
+        display: flex;
+		flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+	
+	footer {
+        width: 98%;
+        margin-left: 8px;
+    }
+	
+	.contenedor-inferior {
+        width: 88%;
+    }
+}
+
